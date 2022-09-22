@@ -213,5 +213,5 @@ console.log("result" + reverse(binary))
 */
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
-    console.log("Server Starter at 3000")
+    console.log("Server Starter at "+PORT)
 })
