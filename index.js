@@ -211,6 +211,7 @@ while (truncado >= 1){
 }
 console.log("result" + reverse(binary))
 */
-app.listen(3000, () => {
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => {
     console.log("Server Starter at 3000")
 })
